@@ -82,9 +82,11 @@ PHP_MSHUTDOWN_FUNCTION(timezonedb)
  */
 PHP_MINFO_FUNCTION(timezonedb)
 {
+	timelib_tzdb *tzdb = &timezonedb_external;
+
 	php_info_print_table_start();
-	php_info_print_table_row( 2, "Alternative Timezone Database", "enabled" );
-	php_info_print_table_row( 2, "Revision", "$Revision$");
+	php_info_print_table_row(2, "Alternative Timezone Database", "enabled");
+	php_info_print_table_row(2, "Timezone Database Version", tzdb->version);
 	php_info_print_table_end();
 }
 /* }}} */
