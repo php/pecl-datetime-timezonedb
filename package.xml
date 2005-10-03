@@ -22,7 +22,7 @@ a later version of the timezone database then the one that ships with PHP.
   <version>2005.13</version>
   <date>2005-10-03</date>
   <notes>
-	1) Fixed library detection routines.
+Initial release with version 2005.13.
   </notes>
   <filelist>
    <file role="src" name="config.m4"/>
