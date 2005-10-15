@@ -17,18 +17,18 @@ a later version of the timezone database then the one that ships with PHP.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2005-10-03</date>
- <time>13:39:59</time>
+ <date>2005-10-15</date>
+ <time>20:15:39</time>
  <version>
-  <release>2005.13</release>
-  <api>2005.13</api>
+  <release>2005.14</release>
+  <api>2005.14</api>
  </version>
  <stability>
   <release>stable</release>
   <api>stable</api>
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
- <notes>Initial release with version 2005.13.
+ <notes>Updated timezone database version to 2005.14.
   
  </notes>
  <contents>

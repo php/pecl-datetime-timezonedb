@@ -8,4 +8,5 @@ if test "$PHP_timezonedb" != "no"; then
   PHP_SUBST(TIMEZONEDB_SHARED_LIBADD)
   PHP_NEW_EXTENSION(timezonedb, timezonedb.c, $ext_shared)
   CPPFLAGS="$CPPFLAGS -Wall"
+  INCLUDES="$INCLUDES -I$prefix/include/php/ext/date/lib"
 fi
