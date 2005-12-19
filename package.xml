@@ -19,10 +19,10 @@ a later version of the timezone database then the one that ships with PHP.
  <license>PHP</license>
  <release>
   <state>stable</state>
-  <version>2005.14</version>
-  <date>2005-10-15</date>
+  <version>2005.17</version>
+  <date>2005-12-19</date>
   <notes>
-Updated timezone database version to 2005.14.
+Updated timezone database version to 2005.17.
   </notes>
   <filelist>
    <file role="src" name="config.m4"/>
