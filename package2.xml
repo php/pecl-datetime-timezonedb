@@ -17,8 +17,8 @@ a later version of the timezone database then the one that ships with PHP.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2005-12-27</date>
- <time>17:40:55</time>
+ <date>2006-01-02</date>
+ <time>11:33:17</time>
  <version>
   <release>2005.18</release>
   <api>2005.18</api>
@@ -28,12 +28,14 @@ a later version of the timezone database then the one that ships with PHP.
   <api>stable</api>
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
- <notes>Updated timezone database version to 2005.18.
+ <notes>Added support for Windows.
+Updated timezone database version to 2005.18.
   
  </notes>
  <contents>
   <dir name="/">
    <file name="config.m4" role="src" />
+   <file name="config.w32" role="src" />
    <file name="CREDITS" role="doc" />
    <file name="php_timezonedb.h" role="src" />
    <file name="timezonedb.c" role="src" />
