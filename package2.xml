@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.4.5" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+<package packagerversion="1.4.6" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
 http://pear.php.net/dtd/tasks-1.0.xsd
 http://pear.php.net/dtd/package-2.0
 http://pear.php.net/dtd/package-2.0.xsd">
@@ -17,19 +17,18 @@ a later version of the timezone database then the one that ships with PHP.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2006-01-02</date>
- <time>11:33:17</time>
+ <date>2006-01-31</date>
+ <time>19:00:03</time>
  <version>
-  <release>2005.18</release>
-  <api>2005.18</api>
+  <release>2006.1</release>
+  <api>2006.1</api>
  </version>
  <stability>
   <release>stable</release>
   <api>stable</api>
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
- <notes>Added support for Windows.
-Updated timezone database version to 2005.18.
+ <notes>Updated timezone database version to 2006.1.
   
  </notes>
  <contents>
