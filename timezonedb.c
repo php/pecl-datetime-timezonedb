@@ -30,6 +30,9 @@
 #include "ext/date/php_date.h"
 
 #define  timezonedb_builtin timezonedb_external
+#define  timezonedb_idx_builtin timezonedb_idx_external
+#define  timelib_timezone_db_data_builtin timelib_timezone_db_data_external
+
 #include "timezonedb.h"
 
 /* {{{ timezonedb_functions[]
