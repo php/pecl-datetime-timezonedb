@@ -8,7 +8,7 @@ http://pear.php.net/dtd/package-2.0.xsd">
  <summary>Timezone Database to be used with PHP&apos;s date and time functions</summary>
  <description>This extension is a drop-in replacement for the builtin timezone database that
 comes with PHP. You should only install this extension in case you need to get
-a later version of the timezone database then the one that ships with PHP.
+a later version of the timezone database than the one that ships with PHP.
  
  </description>
  <lead>
