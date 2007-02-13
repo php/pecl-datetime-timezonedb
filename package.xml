@@ -19,8 +19,8 @@ a later version of the timezone database than the one that ships with PHP.
  <license>PHP</license>
  <release>
   <state>stable</state>
-  <version>2006.16</version>
-  <date>2006-10-27</date>
+  <version>2007.2</version>
+  <date>2007-02-12</date>
   <notes>
 Updated to version 2007b.
   </notes>
