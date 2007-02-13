@@ -17,8 +17,8 @@ a later version of the timezone database than the one that ships with PHP.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2006-11-29</date>
- <time>20:56:33</time>
+ <date>2007-02-12</date>
+ <time>18:33:04</time>
  <version>
   <release>2006.16</release>
   <api>2006.16</api>
@@ -28,7 +28,7 @@ a later version of the timezone database than the one that ships with PHP.
   <api>stable</api>
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
- <notes>Updated to version 2006p.
+ <notes>Updated to version 2007b.
   
  </notes>
  <contents>
