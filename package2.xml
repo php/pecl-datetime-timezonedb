@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.4.11" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+<package packagerversion="1.5.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
 http://pear.php.net/dtd/tasks-1.0.xsd
 http://pear.php.net/dtd/package-2.0
 http://pear.php.net/dtd/package-2.0.xsd">
@@ -9,6 +9,9 @@ http://pear.php.net/dtd/package-2.0.xsd">
  <description>This extension is a drop-in replacement for the builtin timezone database that
 comes with PHP. You should only install this extension in case you need to get
 a later version of the timezone database than the one that ships with PHP.
+
+The data that this extension uses comes from the &quot;Olson&quot; database, which is
+located at ftp://elsie.nci.nih.gov/pub/.
  
  </description>
  <lead>
@@ -17,18 +20,18 @@ a later version of the timezone database than the one that ships with PHP.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2007-02-12</date>
- <time>18:35:22</time>
+ <date>2007-03-06</date>
+ <time>22:19:35</time>
  <version>
-  <release>2007.2</release>
-  <api>2007.2</api>
+  <release>2007.3</release>
+  <api>2007.3</api>
  </version>
  <stability>
   <release>stable</release>
   <api>stable</api>
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
- <notes>Updated to version 2007b.
+ <notes>Updated to version 2007c.
   
  </notes>
  <contents>
