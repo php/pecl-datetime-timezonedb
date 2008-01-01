@@ -42,10 +42,22 @@ function_entry timezonedb_functions[] = {
 };
 /* }}} */
 
+/* {{{ timezonedb dependencies */
+#if ZEND_MODULE_API_NO >= 20050922
+static const zend_module_dep timezonedb_module_deps[] = {
+	ZEND_MOD_REQUIRED("standard")
+	ZEND_MOD_REQUIRED("date")
+	{NULL, NULL, NULL}
+};
+#endif
+/* }}} */
 /* {{{ timezonedb_module_entry
  */
 zend_module_entry timezonedb_module_entry = {
-#if ZEND_MODULE_API_NO >= 20010901
+#if ZEND_MODULE_API_NO >= 20050922
+	STANDARD_MODULE_HEADER_EX, NULL,
+	timezonedb_module_deps,
+#else
 	STANDARD_MODULE_HEADER,
 #endif
 	"timezonedb",
@@ -55,7 +67,7 @@ zend_module_entry timezonedb_module_entry = {
 	NULL,
 	NULL,
 	PHP_MINFO(timezonedb),
-    "0.1",
+	"2007.11",
 	STANDARD_MODULE_PROPERTIES
 };
 /* }}} */
