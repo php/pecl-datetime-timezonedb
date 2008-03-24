@@ -20,18 +20,18 @@ located at ftp://elsie.nci.nih.gov/pub/.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2008-03-16</date>
- <time>08:22:16</time>
+ <date>2008-03-24</date>
+ <time>14:01:38</time>
  <version>
-  <release>2008.1</release>
-  <api>2008.1</api>
+  <release>2008.2</release>
+  <api>2008.2</api>
  </version>
  <stability>
   <release>stable</release>
   <api>stable</api>
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
- <notes>Updated to version 2008.1 (2008a)
+ <notes>Updated to version 2008.2 (2008b)
   
  </notes>
  <contents>
