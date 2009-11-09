@@ -22,10 +22,10 @@ located at ftp://elsie.nci.nih.gov/pub/.
  <license>PHP</license>
  <release>
   <state>stable</state>
-  <version>2009.17</version>
-  <date>2009-11-02</date>
+  <version>2009.18</version>
+  <date>2009-11-09</date>
   <notes>
-Updated to version 2009.17 (2009q)
+Updated to version 2009.18 (2009r)
   </notes>
   <filelist>
    <file role="src" name="config.m4"/>
