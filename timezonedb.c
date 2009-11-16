@@ -67,7 +67,7 @@ zend_module_entry timezonedb_module_entry = {
 	NULL,
 	NULL,
 	PHP_MINFO(timezonedb),
-	"2009.18",
+	"2009.19",
 	STANDARD_MODULE_PROPERTIES
 };
 /* }}} */
