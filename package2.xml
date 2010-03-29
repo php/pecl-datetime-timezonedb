@@ -23,8 +23,8 @@ located at ftp://elsie.nci.nih.gov/pub/.
  <date>2010-03-29</date>
  <time>18:22:56</time>
  <version>
-  <release>2010.7</release>
-  <api>2010.7</api>
+  <release>2010.7.1</release>
+  <api>2010.7.1</api>
  </version>
  <stability>
   <release>stable</release>
@@ -32,7 +32,7 @@ located at ftp://elsie.nci.nih.gov/pub/.
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
  <notes>
-Updated to version  ()
+Updated to version 2010.7.1 (2010g)
  </notes>
  <contents>
   <dir name="/">
