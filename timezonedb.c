@@ -37,7 +37,7 @@
 
 /* {{{ timezonedb_functions[]
  */
-function_entry timezonedb_functions[] = {
+zend_function_entry timezonedb_functions[] = {
 	{NULL, NULL, NULL}
 };
 /* }}} */
