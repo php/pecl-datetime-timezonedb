@@ -21,10 +21,10 @@ located at ftp://elsie.nci.nih.gov/pub/.
   <active>yes</active>
  </lead>
  <date>2010-08-16</date>
- <time>10:32:55</time>
+ <time>13:48:56</time>
  <version>
-  <release>2010.11</release>
-  <api>2010.11</api>
+  <release>2010.12</release>
+  <api>2010.12</api>
  </version>
  <stability>
   <release>stable</release>
@@ -32,7 +32,7 @@ located at ftp://elsie.nci.nih.gov/pub/.
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
  <notes>
-Updated to version 2010.11 (2010k)
+Updated to version 2010.12 (2010l)
  </notes>
  <contents>
   <dir name="/">
