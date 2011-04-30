@@ -20,11 +20,11 @@ located at ftp://elsie.nci.nih.gov/pub/.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2011-04-01</date>
- <time>12:24:52</time>
+ <date>2011-04-30</date>
+ <time>21:18:44</time>
  <version>
-  <release>2011.5</release>
-  <api>2011.5</api>
+  <release>2011.7</release>
+  <api>2011.7</api>
  </version>
  <stability>
   <release>stable</release>
@@ -32,7 +32,7 @@ located at ftp://elsie.nci.nih.gov/pub/.
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
  <notes>
-Updated to version 2011.5 (2011e)
+Updated to version 2011.7 (2011g)
  </notes>
  <contents>
   <dir name="/">
