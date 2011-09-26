@@ -20,11 +20,11 @@ located at ftp://elsie.nci.nih.gov/pub/.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2011-09-12</date>
- <time>15:49:15</time>
+ <date>2011-09-26</date>
+ <time>17:23:03</time>
  <version>
-  <release>2011.10</release>
-  <api>2011.10</api>
+  <release>2011.11</release>
+  <api>2011.11</api>
  </version>
  <stability>
   <release>stable</release>
