@@ -11,7 +11,7 @@ comes with PHP. You should only install this extension in case you need to get
 a later version of the timezone database than the one that ships with PHP.
 
 The data that this extension uses comes from the &quot;Olson&quot; database, which is
-located at ftp://elsie.nci.nih.gov/pub/.
+located at http://www.iana.org/time-zones.
  
  </description>
  <lead>
@@ -20,11 +20,11 @@ located at ftp://elsie.nci.nih.gov/pub/.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2012-08-06</date>
- <time>11:59:46</time>
+ <date>2012-09-14</date>
+ <time>08:38:39</time>
  <version>
-  <release>2012.5</release>
-  <api>2012.5</api>
+  <release>2012.6</release>
+  <api>2012.6</api>
  </version>
  <stability>
   <release>stable</release>
@@ -32,7 +32,7 @@ located at ftp://elsie.nci.nih.gov/pub/.
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
  <notes>
-Updated to version 2012.5 (2012e)
+Updated to version 2012.6 (2012f)
  </notes>
  <contents>
   <dir name="/">
