@@ -22,10 +22,10 @@ located at http://www.iana.org/time-zones.
  <license>PHP</license>
  <release>
   <state>stable</state>
-  <version>2014.7</version>
-  <date>2014-09-01</date>
+  <version>2014.8</version>
+  <date>2014-09-26</date>
   <notes>
-Updated to version 2014.7 (2014g)
+Updated to version 2014.8 (2014h)
   </notes>
   <filelist>
    <file role="src" name="config.m4"/>
