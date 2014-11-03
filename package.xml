@@ -34,6 +34,7 @@ Updated to version 2014.9 (2014i)
    <file role="src" name="timezonedb.h"/>
    <file role="src" name="php_timezonedb.h"/>
    <file role="doc" name="CREDITS"/>
+   <file role="doc" name="LICENSE"/>
   </filelist>
   <deps>
   </deps>

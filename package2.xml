@@ -39,6 +39,7 @@ Updated to version 2014.9 (2014i)
    <file name="config.m4" role="src" />
    <file name="config.w32" role="src" />
    <file name="CREDITS" role="doc" />
+   <file name="LICENSE" role="doc" />
    <file name="php_timezonedb.h" role="src" />
    <file name="timezonedb.c" role="src" />
    <file name="timezonedb.h" role="src" />
