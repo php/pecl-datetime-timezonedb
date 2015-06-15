@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.5" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+http://pear.php.net/dtd/tasks-1.0.xsd
+http://pear.php.net/dtd/package-2.0
+http://pear.php.net/dtd/package-2.0.xsd">
+ <name>timezonedb</name>
+ <channel>pecl.php.net</channel>
+ <summary>Timezone Database to be used with PHP&apos;s date and time functions</summary>
+ <description>This extension is a drop-in replacement for the builtin timezone database that
+comes with PHP. You should only install this extension in case you need to get
+a later version of the timezone database than the one that ships with PHP.
+
+The data that this extension uses comes from the &quot;Olson&quot; database, which is
+located at http://www.iana.org/time-zones.
+ 
+ </description>
+ <lead>
+  <name>Derick Rethans</name>
+  <user>derick</user>
+  <email>derick@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2015-04-24</date>
+ <time>21:56:27</time>
+ <version>
+  <release>2015.4</release>
+  <api>2015.4</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP</license>
+ <notes>
+Updated to version 2015.4 (2015d)
+ </notes>
+ <contents>
+  <dir name="/">
+   <file name="config.m4" role="src" />
+   <file name="config.w32" role="src" />
+   <file name="CREDITS" role="doc" />
+   <file name="LICENSE" role="doc" />
+   <file name="php_timezonedb.h" role="src" />
+   <file name="timezonedb.c" role="src" />
+   <file name="timezonedb.h" role="src" />
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <providesextension>timezonedb</providesextension>
+ <extsrcrelease />
+</package>
