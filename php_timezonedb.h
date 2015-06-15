@@ -26,7 +26,7 @@
 extern zend_module_entry timezonedb_module_entry;
 #define phpext_timezonedb_ptr &timezonedb_module_entry
 
-#define PHP_TIMEZONEDB_VERSION ".-96"
+#define PHP_TIMEZONEDB_VERSION "2015.5"
 
 PHP_MINIT_FUNCTION(timezonedb);
 PHP_MINFO_FUNCTION(timezonedb);
