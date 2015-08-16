@@ -33,6 +33,19 @@
 #define  timezonedb_idx_builtin timezonedb_idx_external
 #define  timelib_timezone_db_data_builtin timelib_timezone_db_data_external
 
+#if PHP_VERSION_ID >= 50441 && PHP_VERSION_ID <= 50499
+# define TIMELIB_SUPPORTS_V2DATA
+#endif
+#if PHP_VERSION_ID >= 50525 && PHP_VERSION_ID <= 50599
+# define TIMELIB_SUPPORTS_V2DATA
+#endif
+#if PHP_VERSION_ID >= 50609 && PHP_VERSION_ID <= 50699
+# define TIMELIB_SUPPORTS_V2DATA
+#endif
+#if PHP_VERSION_ID >= 70000
+# define TIMELIB_SUPPORTS_V2DATA
+#endif
+
 #include "timezonedb.h"
 
 /* {{{ timezonedb_functions[]
