@@ -20,11 +20,11 @@ located at http://www.iana.org/time-zones.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2018-10-22</date>
+ <date>2018-10-30</date>
  <time>21:56:27</time>
  <version>
-  <release>2018.6</release>
-  <api>2018.6</api>
+  <release>2018.7</release>
+  <api>2018.7</api>
  </version>
  <stability>
   <release>stable</release>
@@ -32,7 +32,7 @@ located at http://www.iana.org/time-zones.
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
  <notes>
-Updated to version 2018.6 (2018f)
+Updated to version 2018.7 (2018g)
  </notes>
  <contents>
   <dir name="/">
