@@ -20,11 +20,11 @@ located at http://www.iana.org/time-zones.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2019-10-02</date>
+ <date>2020-04-24</date>
  <time>21:56:27</time>
  <version>
-  <release>2019.3</release>
-  <api>2019.3</api>
+  <release>2020.1</release>
+  <api>2020.1</api>
  </version>
  <stability>
   <release>stable</release>
@@ -32,7 +32,7 @@ located at http://www.iana.org/time-zones.
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
  <notes>
-Updated to version 2019.3 (2019c)
+Updated to version 2020.1 (20a)
  </notes>
  <contents>
   <dir name="/">
