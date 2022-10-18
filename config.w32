@@ -4,10 +4,6 @@
 ARG_ENABLE("timezonedb", "timezonedb support", "no");
 
 if (PHP_TIMEZONEDB != "no") {
-	if (CHECK_HEADER_ADD_INCLUDE("timelib_config.h", "CFLAGS_TIMEZONEDB", "ext/date/lib")) {
-		EXTENSION("timezonedb", "timezonedb.c");
-		AC_DEFINE("HAVE_TIMEZONEDB", 1, "timezonedb support");
-	} else {
-		WARNING("timezonedb not enabled; headers not found");
-	}
+	EXTENSION("timezonedb", "timezonedb.c");
+	AC_DEFINE("HAVE_TIMEZONEDB", 1, "timezonedb support");
 }
