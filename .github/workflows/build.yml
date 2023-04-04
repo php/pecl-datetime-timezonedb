@@ -18,13 +18,13 @@ jobs:
         strategy:
             fail-fast: false
             matrix:
-                php: ["7.2", "7.3", "7.4", "8.0", "8.1", "8.2"]
+                php: ["7.3", "7.4", "8.0", "8.1", "8.2"]
                 arch: [x86, x64]
                 ts: [nts, ts]
                 experimental: [false]
         steps:
                 - name: Checkout Repository
-                  uses: actions/checkout@v2
+                  uses: actions/checkout@v3
                 - name: Extract Version
                   shell: powershell
                   run: |
@@ -36,7 +36,7 @@ jobs:
                     echo $extension_version >> $env:GITHUB_ENV
                 - name: Setup PHP
                   id: setup-php
-                  uses: cmb69/setup-php-sdk@679db664987b6f5de6ecc4732e9ce649a689e4e5
+                  uses: cmb69/setup-php-sdk@v0.7
                   with:
                       version: ${{matrix.php}}
                       arch: ${{matrix.arch}}
