@@ -1,5 +1,5 @@
 {
-    "name": "php/timezonedb",
+    "name": "pecl/timezonedb",
     "type": "php-ext",
     "license": "PHP-3.01",
     "description": "Timezone Database to be used with PHP's date and time functions",
