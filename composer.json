@@ -1,0 +1,13 @@
+{
+    "name": "pecl/timezonedb",
+    "type": "php-ext",
+    "license": "PHP-3.01",
+    "description": "This extension is a drop-in replacement for the builtin timezone database that comes with PHP.",
+    "require": {
+        "php": ">=5.4"
+    },
+    "php-ext": {
+        "priority": 20,
+        "configure-options": []
+    }
+}
