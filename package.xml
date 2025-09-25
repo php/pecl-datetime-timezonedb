@@ -21,10 +21,10 @@ located at http://www.iana.org/time-zones.
   <active>yes</active>
  </lead>
  <date>2025-09-25</date>
- <time>13:49:24</time>
+ <time>14:42:43</time>
  <version>
-  <release>2025.2.1</release>
-  <api>2025.2.1</api>
+  <release>2025.2.2</release>
+  <api>2025.2.2</api>
  </version>
  <stability>
   <release>stable</release>
@@ -32,7 +32,7 @@ located at http://www.iana.org/time-zones.
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
  <notes>
-Extra release to hopefully have a "good last release" due to weird GitHub issues.
+This is a packaging only related release, which fixes building artefacts on Windows for installation with PIE.
 There are no code or data changes.
 
  </notes>
