@@ -2,7 +2,7 @@
   +----------------------------------------------------------------------+
   | PHP Version 5                                                        |
   +----------------------------------------------------------------------+
-  | Copyright (c) 1997-2005 The PHP Group                                |
+  | Copyright (c) 1997-2025 The PHP Group                                |
   +----------------------------------------------------------------------+
   | This source file is subject to version 3.0 of the PHP license,       |
   | that is bundled with this package in the file LICENSE, and is        |
@@ -26,7 +26,7 @@
 extern zend_module_entry timezonedb_module_entry;
 #define phpext_timezonedb_ptr &timezonedb_module_entry
 
-#define PHP_TIMEZONEDB_VERSION "2025.2"
+#define PHP_TIMEZONEDB_VERSION "2025.2.1"
 
 PHP_MINIT_FUNCTION(timezonedb);
 PHP_MINFO_FUNCTION(timezonedb);
