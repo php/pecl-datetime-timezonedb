@@ -20,11 +20,11 @@ located at http://www.iana.org/time-zones.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2026-03-02</date>
+ <date>2026-07-09</date>
  <time>13:49:24</time>
  <version>
-  <release>2026.1</release>
-  <api>2026.1</api>
+  <release>2026.3</release>
+  <api>2026.3</api>
  </version>
  <stability>
   <release>stable</release>
