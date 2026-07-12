@@ -29,6 +29,7 @@ extern zend_module_entry timezonedb_module_entry;
 #define PHP_TIMEZONEDB_VERSION "2026.3"
 
 PHP_MINIT_FUNCTION(timezonedb);
+PHP_MSHUTDOWN_FUNCTION(timezonedb);
 PHP_MINFO_FUNCTION(timezonedb);
 
 #endif	/* TIMEZONEDB_H */
