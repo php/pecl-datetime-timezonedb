@@ -20,11 +20,11 @@ located at http://www.iana.org/time-zones.
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2026-07-09</date>
+ <date>2026-09-15</date>
  <time>13:49:24</time>
  <version>
-  <release>2026.3</release>
-  <api>2026.3</api>
+  <release>2026.4</release>
+  <api>2026.4</api>
  </version>
  <stability>
   <release>stable</release>
@@ -32,9 +32,7 @@ located at http://www.iana.org/time-zones.
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
  <notes>
-Extra release to hopefully have a "good last release" due to weird GitHub issues.
-There are no code or data changes.
-
+Updated to version 2026.4 (2026d)
  </notes>
  <contents>
   <dir name="/">
