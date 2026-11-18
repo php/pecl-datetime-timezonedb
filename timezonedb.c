@@ -76,7 +76,7 @@ zend_module_entry timezonedb_module_entry = {
 	"timezonedb",
 	timezonedb_functions,
 	PHP_MINIT(timezonedb),
-	NULL,
+	PHP_MSHUTDOWN(timezonedb),
 	NULL,
 	NULL,
 	PHP_MINFO(timezonedb),
@@ -102,6 +102,7 @@ PHP_MINIT_FUNCTION(timezonedb)
  */
 PHP_MSHUTDOWN_FUNCTION(timezonedb)
 {
+	php_date_set_tzdb((timelib_tzdb *) timelib_builtin_db());
 	return SUCCESS;
 }
 /* }}} */
